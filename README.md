@@ -2,7 +2,7 @@
 
 Pruebas en llevar hacer deploy en heroku
 
-Realizado por Fernando Lopez 2017
+Realizado por Fernando Lopez 2018
 
 # Instalacion
 
