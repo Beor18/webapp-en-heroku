@@ -37,17 +37,6 @@ export class HomePage{
     this.loader.present();
   }
 
-  itemTapped(museum) {
-     this.navCtrl.push(MapaDetallePage, {
-       museum: museum
-     });
-  }
-
-  allMuseumMap(){
-    this.navCtrl.push(TodoMapaPage, {
-       museumList: this.museumList
-    });
-  }
 
   doRefresh(refresher) {
     this.http.get('https://demo-fernando.herokuapp.com/todos')
