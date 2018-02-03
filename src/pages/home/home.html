@@ -31,7 +31,7 @@
   
   <ion-grid>
     <ion-row>
-      <ion-col col-6 *ngFor="let museum of museumList">
+      <ion-col col-4 *ngFor="let museum of museumList" style="padding: 0 !important; margin: 0 !important;">
         <ion-card (click)="itemTapped(museum)">
           <img [src]="museum.imagenuno" class="imagencard"/>
           <div class="card-title">{{ museum.name }}</div>
